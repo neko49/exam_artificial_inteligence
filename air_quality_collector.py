@@ -2,7 +2,7 @@ import requests
 import time
 
 # Liste des villes à analyser
-cities = ["Paris", "London", "Berlin", "Madrid", "Rome"]
+cities = ["Paris", "London", "Berlin", "Madrid", "Rome", "Amsterdam"]
 
 # Récupération des données de qualité de l'air
 def get_air_quality_data(city):
